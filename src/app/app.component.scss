@@ -64,3 +64,85 @@ h5 {
     margin-left: 15%;
     margin-right: 15%;
 }
+
+#roty {
+    width: 100%;
+    overflow: hidden;
+    margin: 50px auto;
+    background: transparent;
+}
+.photobanner {
+	height: 220px;
+	width: 8640px;
+	margin-bottom: 80px;
+}
+
+.first {
+	-webkit-animation: bannermove 20s linear infinite;
+	   -moz-animation: bannermove 20s linear infinite;
+	    -ms-animation: bannermove 20s linear infinite;
+	     -o-animation: bannermove 20s linear infinite;
+	        animation: bannermove 20s linear infinite;
+}
+@keyframes "bannermove" {
+    0% {
+       margin-left: 0px;
+    }
+    100% {
+       margin-left: -5746px;
+    }
+   
+   }
+   
+   @-moz-keyframes bannermove {
+    0% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -5746px;
+    }
+   
+   }
+   
+   @-webkit-keyframes "bannermove" {
+    0% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -5746px;
+    }
+   
+   }
+   
+   @-ms-keyframes "bannermove" {
+    0% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -5746px;
+    }
+   
+   }
+   
+   @-o-keyframes "bannermove" {
+    0% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -5746px;
+    }
+   
+   }
+   .photobanner {
+       height: 242px;
+       width: 8640px;
+       margin-bottom: 80px;
+   }
+   
+   .photobanner img {
+       -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+       -ms-transition: all 1s ease;
+       transition: all 1s ease;
+   }
