@@ -146,3 +146,29 @@ h5 {
        -ms-transition: all 1s ease;
        transition: all 1s ease;
    }
+
+.rotateR {
+  animation: rotationR 2s infinite linear;
+}
+
+@keyframes rotationR {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.rotateL {
+  animation: rotationL 2s infinite linear;
+}
+
+@keyframes rotationL {
+  from {
+    transform: rotate(359deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
